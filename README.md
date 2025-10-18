@@ -137,6 +137,4 @@
 
 Made with ❤️ by Professional Developers
 
-[⬆️ 回到顶部](#secureauth-pro---专业设备授权系统)
-
 </div>

@@ -20,35 +20,6 @@
 
 <br>
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://via.placeholder.com/400x280/4CAF50/FFFFFF?text=设备授权管理" alt="设备授权管理" style="border-radius: 6px;" />
-<br><strong>设备授权管理</strong>
-<br><small>硬件指纹识别 • 批量授权操作</small>
-</td>
-<td width="50%" align="center">
-<img src="https://via.placeholder.com/400x280/FF9800/FFFFFF?text=安全监控中心" alt="安全监控中心" style="border-radius: 6px;" />
-<br><strong>安全监控中心</strong>
-<br><small>实时威胁检测 • 访问日志审计</small>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="https://via.placeholder.com/400x280/9C27B0/FFFFFF?text=系统配置面板" alt="系统配置面板" style="border-radius: 6px;" />
-<br><strong>系统配置面板</strong>
-<br><small>高级参数设置 • 性能优化调节</small>
-</td>
-<td width="50%" align="center">
-<img src="https://via.placeholder.com/400x280/F44336/FFFFFF?text=数据统计报表" alt="数据统计报表" style="border-radius: 6px;" />
-<br><strong>数据统计报表</strong>
-<br><small>使用情况分析 • 趋势图表展示</small>
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
 ## 🎯 项目简介

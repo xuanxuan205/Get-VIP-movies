@@ -1,0 +1,35 @@
+# 基础依赖 / Basic Dependencies
+Flask>=2.3.0
+gunicorn>=21.0.0
+requests>=2.31.0
+
+# GUI依赖 / GUI Dependencies
+PyQt5>=5.15.0
+
+# 可选依赖 / Optional Dependencies
+# 如需要更多功能，请安装以下依赖
+# For additional features, install the following dependencies:
+
+# 网络请求增强 / Enhanced HTTP requests
+# urllib3>=1.26.0
+# certifi>=2023.0.0
+
+# 数据处理 / Data processing
+# beautifulsoup4>=4.12.0
+# lxml>=4.9.0
+
+# 加密支持 / Encryption support
+# cryptography>=41.0.0
+# pycryptodome>=3.18.0
+
+# 系统信息获取 / System information
+# psutil>=5.9.0
+# wmi>=1.5.1  # Windows only
+
+# 日志处理 / Logging
+# colorlog>=6.7.0
+
+# 开发工具 / Development tools
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.0.0

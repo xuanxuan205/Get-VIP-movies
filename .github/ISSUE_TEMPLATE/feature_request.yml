@@ -1,0 +1,133 @@
+name: 🚀 功能请求 / Feature Request
+description: 建议一个新功能或改进 / Suggest a new feature or improvement
+title: "[Feature]: "
+labels: ["enhancement", "feature-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您提出功能建议！我们重视每一个改进意见。
+        Thank you for suggesting a feature! We value every improvement suggestion.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 🎯 功能描述 / Feature Description
+      description: 详细描述您希望添加的功能 / Describe the feature you'd like to see added
+      placeholder: 我希望能够... / I would like to be able to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-solution
+    attributes:
+      label: 🤔 解决的问题 / Problem it Solves
+      description: 这个功能解决了什么问题？/ What problem does this feature solve?
+      placeholder: 目前的问题是... / The current problem is...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 💡 建议的解决方案 / Proposed Solution
+      description: 您认为应该如何实现这个功能？/ How do you think this feature should be implemented?
+      placeholder: 我建议... / I suggest...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 替代方案 / Alternatives Considered
+      description: 您是否考虑过其他解决方案？/ Have you considered any alternative solutions?
+      placeholder: 我也考虑过... / I also considered...
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 📊 优先级 / Priority
+      description: 您认为这个功能的优先级如何？/ What priority do you think this feature should have?
+      options:
+        - 低 / Low - 有了更好，没有也可以 / Nice to have
+        - 中 / Medium - 会显著改善用户体验 / Would significantly improve UX
+        - 高 / High - 对核心功能很重要 / Important for core functionality
+        - 紧急 / Critical - 阻碍正常使用 / Blocking normal usage
+    validations:
+      required: true
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: 🛠️ 实现复杂度 / Implementation Complexity
+      description: 您认为实现这个功能的复杂度如何？/ What do you think the complexity of implementing this feature is?
+      options:
+        - 简单 / Simple - 几行代码就能实现 / Can be done with a few lines of code
+        - 中等 / Medium - 需要一些工作但不复杂 / Requires some work but not complex
+        - 复杂 / Complex - 需要大量工作和设计 / Requires significant work and design
+        - 不确定 / Uncertain - 我不确定实现难度 / I'm not sure about the difficulty
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 📋 使用场景 / Use Cases
+      description: 描述这个功能的具体使用场景 / Describe specific use cases for this feature
+      placeholder: |
+        场景1：当用户... / Scenario 1: When user...
+        场景2：在...情况下 / Scenario 2: In the case of...
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: 🎨 界面设计 / UI Mockups
+      description: 如果涉及界面变更，请描述或提供设计图 / If UI changes are involved, please describe or provide mockups
+      placeholder: 可以粘贴图片链接或描述界面布局 / You can paste image links or describe the UI layout
+
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: 🔧 技术细节 / Technical Details
+      description: 如果您有技术实现的想法，请分享 / If you have ideas about technical implementation, please share
+      placeholder: |
+        - API设计 / API design:
+        - 数据结构 / Data structure:
+        - 依赖项 / Dependencies:
+        - 性能考虑 / Performance considerations:
+
+  - type: checkboxes
+    id: feature-type
+    attributes:
+      label: 🏷️ 功能类型 / Feature Type
+      description: 这个功能属于哪个类别？(可多选) / What category does this feature belong to? (Multiple selections allowed)
+      options:
+        - label: 用户界面改进 / UI Improvement
+        - label: 性能优化 / Performance Optimization
+        - label: 新的解析功能 / New Parsing Feature
+        - label: 安全增强 / Security Enhancement
+        - label: 激活系统改进 / Activation System Improvement
+        - label: 配置和设置 / Configuration and Settings
+        - label: 日志和调试 / Logging and Debugging
+        - label: 文档和帮助 / Documentation and Help
+        - label: 其他 / Other
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 附加信息 / Additional Context
+      description: 添加任何其他相关信息 / Add any other relevant information
+      placeholder: 相关链接、参考资料、截图等 / Related links, references, screenshots, etc.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ 确认 / Confirmation
+      description: 在提交之前，请确认以下内容 / Before submitting, please confirm the following
+      options:
+        - label: 我已经搜索了现有的issues，确认这不是重复请求 / I have searched existing issues and confirmed this is not a duplicate request
+          required: true
+        - label: 我理解这是一个功能建议，不保证会被实现 / I understand this is a feature suggestion and there's no guarantee it will be implemented
+          required: true
+        - label: 我愿意在需要时提供更多信息或协助测试 / I'm willing to provide more information or help with testing if needed
+          required: true

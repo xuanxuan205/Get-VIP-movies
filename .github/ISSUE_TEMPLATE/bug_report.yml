@@ -1,0 +1,120 @@
+name: 🐛 Bug报告 / Bug Report
+description: 报告一个bug来帮助我们改进项目 / Report a bug to help us improve the project
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您花时间填写这个bug报告！
+        Thank you for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 🐛 问题描述 / What happened?
+      description: 请详细描述遇到的问题 / Please describe the issue in detail
+      placeholder: 告诉我们发生了什么！/ Tell us what happened!
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: ✅ 期望行为 / Expected Behavior
+      description: 描述您期望发生的行为 / Describe what you expected to happen
+      placeholder: 我期望... / I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 🔄 复现步骤 / Steps to Reproduce
+      description: 提供详细的复现步骤 / Provide detailed steps to reproduce
+      placeholder: |
+        1. 打开应用程序... / Open the application...
+        2. 点击... / Click on...
+        3. 输入... / Enter...
+        4. 看到错误 / See error
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: 📦 版本信息 / Version
+      description: 您使用的是哪个版本？/ What version are you using?
+      options:
+        - v2.1.1 (最新 / Latest)
+        - v2.1.0
+        - v2.0.x
+        - 其他 / Other (请在下方说明 / please specify below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 💻 操作系统 / Operating System
+      description: 您使用的操作系统？/ What operating system are you using?
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 8.1
+        - Windows 7
+        - 其他 / Other (请在下方说明 / please specify below)
+    validations:
+      required: true
+
+  - type: input
+    id: python-version
+    attributes:
+      label: 🐍 Python版本 / Python Version
+      description: 您使用的Python版本？/ What Python version are you using?
+      placeholder: 例如：3.9.7 / e.g., 3.9.7
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🌍 环境信息 / Environment Information
+      description: 提供其他相关的环境信息 / Provide other relevant environment information
+      placeholder: |
+        - 安装方式 / Installation method: (pip, 源码 / source code, 可执行文件 / executable)
+        - 网络环境 / Network environment: (家庭 / home, 公司 / office, 公共 / public)
+        - 防火墙/杀毒软件 / Firewall/Antivirus: 
+        - 其他相关信息 / Other relevant info:
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📋 日志信息 / Logs
+      description: 如果有相关日志，请粘贴在这里 / If you have relevant logs, please paste them here
+      render: shell
+      placeholder: |
+        请粘贴相关的错误日志或程序输出
+        Please paste relevant error logs or program output
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 附加信息 / Additional Context
+      description: 添加任何其他有助于解决问题的信息 / Add any other information that might help resolve the issue
+      placeholder: 截图、相关链接等 / Screenshots, related links, etc.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ 确认 / Confirmation
+      description: 在提交之前，请确认以下内容 / Before submitting, please confirm the following
+      options:
+        - label: 我已经搜索了现有的issues，确认这不是重复报告 / I have searched existing issues and confirmed this is not a duplicate
+          required: true
+        - label: 我已经阅读了项目文档和FAQ / I have read the project documentation and FAQ
+          required: true
+        - label: 我理解这是一个开源项目，维护者会尽力帮助但不保证立即解决 / I understand this is an open source project and maintainers will try to help but cannot guarantee immediate resolution
+          required: true

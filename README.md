@@ -1,4 +1,4 @@
-# 🔐 SecureAuth Pro - 专业设备授权系统
+# 🔐 SecureAuth Pro -    获取 VIP 电影
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 *基于硬件指纹的专业级设备授权管理工具，适配多平台，支持离线验证*
 
-🚀 [立即下载](https://gta5fuzhup.cn/share.php?code=c808198c) • 📖 [使用指南](#使用指南) • 💬 [问题反馈](#问题反馈) • ⭐ [给个星标](#给个星标)
+🚀 [立即下载](https://gta5fuzhup.cn/share.php?code=c808198c) 
 
 ## 📸 程序界面展示
 
@@ -89,28 +89,6 @@
 
 ---
 
-## 🔧 API 接口
-
-### 授权验证
-
-系统提供标准的RESTful API接口，支持设备授权验证功能。客户端可以通过HTTP POST请求提交设备标识和授权密钥，系统返回验证结果和相关信息。
-
-### 设备管理
-
-设备管理接口允许用户查询和管理已授权的设备列表。支持获取设备详细信息、状态查询和批量操作功能。
-
-### 系统状态
-
-系统状态接口提供实时的服务运行状态信息，包括系统版本、运行时间、活跃连接数和健康状态检查。
-
----
-
-## 📁 项目结构
-
-项目采用模块化设计，主要包含源代码目录、配置文件、文档目录、测试用例和部署脚本等组件。清晰的目录结构便于开发维护和功能扩展。
-
----
-
 ## 🎨 界面预览
 
 ### 主控制台
@@ -127,18 +105,6 @@
 - 安全事件时间线
 - 威胁检测报告
 - 系统健康状态
-
----
-
-## 🔧 高级配置
-
-### 性能优化
-
-系统提供多种性能优化选项，包括缓存大小配置、工作线程数量、连接池设置、请求超时时间和压缩功能开关。
-
-### 安全加固
-
-安全配置包含密码策略设置、会话管理参数、CSRF保护和安全Cookie配置等选项，确保系统在各种环境下的安全运行。
 
 ---
 
@@ -163,39 +129,11 @@
 ### 贡献代码
 
 我们欢迎社区贡献！请查看贡献指南了解如何参与项目开发。
-
-### 版本发布
-
-- **稳定版**: 每月发布，包含新功能和bug修复
-- **测试版**: 每周发布，包含最新开发进展
-- **长期支持版**: 每年发布，提供18个月技术支持
-
 ---
-
-## 📊 项目统计
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=social)
-![GitHub forks](https://img.shields.io/github/forks/xuanxuan205/Get-VIP-movies?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/xuanxuan205/Get-VIP-movies?style=social)
-![GitHub issues](https://img.shields.io/github/issues/xuanxuan205/Get-VIP-movies?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/xuanxuan205/Get-VIP-movies?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/xuanxuan205/Get-VIP-movies?style=flat-square)
-
-</div>
-
----
-
-## 📄 许可证
-
-本项目采用 MIT 许可证开源发布。
 
 ---
 
 <div align="center">
-
-**SecureAuth Pro** - 专业级授权解决方案
 
 Made with ❤️ by Professional Developers
 

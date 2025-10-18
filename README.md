@@ -46,43 +46,14 @@
 
 ### 安装步骤
 
-```bash
-# 1. 克隆项目
-git clone https://github.com/xuanxuan205/Get-VIP-movies.git
-cd Get-VIP-movies
-
-# 2. 安装依赖
-pip install -r requirements.txt
-
-# 3. 初始化配置
-python setup.py init
-
-# 4. 启动服务
-python main.py
-```
+1. 克隆项目到本地目录
+2. 安装项目依赖包
+3. 初始化系统配置
+4. 启动授权服务
 
 ### 快速配置
 
-```python
-# config.json
-{
-    "server": {
-        "host": "localhost",
-        "port": 8080,
-        "debug": false
-    },
-    "security": {
-        "encryption": "AES-256",
-        "token_expire": 3600,
-        "max_devices": 5
-    },
-    "features": {
-        "auto_backup": true,
-        "real_time_sync": true,
-        "advanced_logging": true
-    }
-}
-```
+系统支持灵活的配置选项，包括服务器设置、安全参数和功能开关。用户可以根据实际需求调整配置参数，实现最佳的性能和安全平衡。
 
 ---
 
@@ -108,14 +79,7 @@ python main.py
 
 ### 📊 监控分析
 
-```
-实时状态面板
-├── 在线设备数量
-├── 授权使用情况
-├── 系统性能指标
-├── 安全事件统计
-└── 错误日志分析
-```
+实时状态面板提供全面的系统监控功能，包括在线设备数量、授权使用情况、系统性能指标、安全事件统计和错误日志分析。
 
 ---
 
@@ -123,69 +87,21 @@ python main.py
 
 ### 授权验证
 
-```http
-POST /api/v1/auth/verify
-Content-Type: application/json
-
-{
-    "device_id": "unique_device_identifier",
-    "license_key": "your_license_key",
-    "timestamp": 1640995200
-}
-```
+系统提供标准的RESTful API接口，支持设备授权验证功能。客户端可以通过HTTP POST请求提交设备标识和授权密钥，系统返回验证结果和相关信息。
 
 ### 设备管理
 
-```http
-GET /api/v1/devices
-Authorization: Bearer <token>
-
-Response:
-{
-    "devices": [
-        {
-            "id": "device_001",
-            "name": "用户设备1",
-            "status": "active",
-            "last_seen": "2024-01-15T10:30:00Z"
-        }
-    ]
-}
-```
+设备管理接口允许用户查询和管理已授权的设备列表。支持获取设备详细信息、状态查询和批量操作功能。
 
 ### 系统状态
 
-```http
-GET /api/v1/system/status
-
-Response:
-{
-    "status": "healthy",
-    "version": "2.1.1",
-    "uptime": 86400,
-    "active_connections": 42
-}
-```
+系统状态接口提供实时的服务运行状态信息，包括系统版本、运行时间、活跃连接数和健康状态检查。
 
 ---
 
 ## 📁 项目结构
 
-```
-SecureAuth-Pro/
-├── 📁 src/                    # 源代码目录
-│   ├── 📁 auth/              # 授权模块
-│   ├── 📁 security/          # 安全组件
-│   ├── 📁 api/               # API接口
-│   └── 📁 utils/             # 工具函数
-├── 📁 config/                # 配置文件
-├── 📁 docs/                  # 文档目录
-├── 📁 tests/                 # 测试用例
-├── 📁 scripts/               # 部署脚本
-├── 📄 requirements.txt       # 依赖列表
-├── 📄 setup.py              # 安装脚本
-└── 📄 README.md             # 项目说明
-```
+项目采用模块化设计，主要包含源代码目录、配置文件、文档目录、测试用例和部署脚本等组件。清晰的目录结构便于开发维护和功能扩展。
 
 ---
 
@@ -212,44 +128,21 @@ SecureAuth-Pro/
 
 ### 性能优化
 
-```python
-# 高性能配置示例
-PERFORMANCE_CONFIG = {
-    "cache_size": 1000,
-    "worker_threads": 4,
-    "connection_pool": 20,
-    "request_timeout": 30,
-    "enable_compression": True
-}
-```
+系统提供多种性能优化选项，包括缓存大小配置、工作线程数量、连接池设置、请求超时时间和压缩功能开关。
 
 ### 安全加固
 
-```python
-# 安全配置示例
-SECURITY_CONFIG = {
-    "password_policy": {
-        "min_length": 12,
-        "require_special": True,
-        "require_numbers": True
-    },
-    "session_config": {
-        "timeout": 1800,
-        "secure_cookies": True,
-        "csrf_protection": True
-    }
-}
-```
+安全配置包含密码策略设置、会话管理参数、CSRF保护和安全Cookie配置等选项，确保系统在各种环境下的安全运行。
 
 ---
 
 ## 📚 文档资源
 
-- [📖 用户手册](./docs/user-guide.md) - 详细的使用说明
-- [🔧 开发文档](./docs/developer-guide.md) - API和扩展开发
-- [🛡️ 安全指南](./docs/security-guide.md) - 安全最佳实践
-- [❓ 常见问题](./docs/faq.md) - 问题解答和故障排除
-- [🎯 最佳实践](./docs/best-practices.md) - 部署和使用建议
+- **用户手册** - 详细的使用说明和操作指南
+- **开发文档** - API接口和扩展开发指南
+- **安全指南** - 安全配置和最佳实践
+- **常见问题** - 问题解答和故障排除
+- **最佳实践** - 部署和使用建议
 
 ---
 
@@ -257,13 +150,13 @@ SECURITY_CONFIG = {
 
 ### 获取帮助
 
-- **GitHub Issues**: [报告问题](https://github.com/xuanxuan205/Get-VIP-movies/issues)
-- **讨论区**: [参与讨论](https://github.com/xuanxuan205/Get-VIP-movies/discussions)
-- **Wiki**: [查看Wiki](https://github.com/xuanxuan205/Get-VIP-movies/wiki)
+- **GitHub Issues**: 报告问题和提交反馈
+- **讨论区**: 参与技术讨论和经验分享
+- **Wiki**: 查看详细的技术文档
 
 ### 贡献代码
 
-我们欢迎社区贡献！请查看 [贡献指南](./CONTRIBUTING.md) 了解如何参与项目开发。
+我们欢迎社区贡献！请查看贡献指南了解如何参与项目开发。
 
 ### 版本发布
 
@@ -287,7 +180,7 @@ SECURITY_CONFIG = {
 
 ## 📄 许可证
 
-本项目采用 [MIT 许可证](./LICENSE) 开源发布。
+本项目采用 MIT 许可证开源发布。
 
 ---
 

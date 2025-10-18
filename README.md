@@ -1,17 +1,27 @@
-# 媒体内容管理系统 - 设备授权保护系统
+# Enterprise Media Content Management System
 
-## 问题描述
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/xuanxuan205/Get-VIP-movies)
+[![Security](https://img.shields.io/badge/security-enhanced-green.svg)](./SECURITY.md)
 
-原系统存在授权验证漏洞，用户可以通过卸载重装软件重复使用同一授权码，导致授权码被滥用。
+## Overview
 
-## 解决方案
+The Enterprise Media Content Management System is a sophisticated software solution designed to provide secure device-based authorization and content management capabilities. Built with enterprise-grade security features and scalable architecture, this system ensures robust protection against unauthorized access and license abuse.
 
-实现了一个防卸载重装授权保护系统，包含以下核心功能：
+## Key Features
 
-1. **设备唯一ID生成**：通过收集多种硬件信息生成唯一设备ID
-2. **多位置授权记录存储**：在注册表、用户目录和程序目录多个位置存储加密的授权记录
-3. **启动验证流程**：程序启动时验证设备ID与授权记录匹配
-4. **授权码管理系统**：支持管理员管理和监控授权码，防止滥用
+### 🔐 Advanced Authorization System
+- **Hardware Fingerprinting**: Generates unique device identifiers using multiple hardware components
+- **Multi-Layer Storage**: Encrypted authorization records stored across registry, file system, and application directories
+- **Anti-Tampering Protection**: Prevents unauthorized reinstallation and license reuse
+- **Centralized Management**: Server-side authorization validation and lifecycle management
+
+### 🏗️ Enterprise Architecture
+- **Client-Server Model**: Scalable distributed architecture
+- **RESTful API**: Standard HTTP-based communication protocol
+- **Database Integration**: Persistent storage with backup and recovery
+- **Load Balancing**: Support for high-availability deployments
 
 ## 技术实现
 

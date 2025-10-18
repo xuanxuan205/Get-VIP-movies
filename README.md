@@ -15,7 +15,7 @@
 ## 📸 程序界面展示
 
 <div align="center">
-<img src="https://via.placeholder.com/800x500/1976D2/FFFFFF?text=SecureAuth+Pro+v2.1.1+主界面" alt="SecureAuth Pro 主界面" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+<img src="./images/app-screenshot.png" alt="SecureAuth Pro 主界面" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 <br>

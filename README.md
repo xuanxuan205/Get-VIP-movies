@@ -147,7 +147,6 @@
 - **项目主页**: [https://github.com/xuanxuan205/Get-VIP-movies](https://github.com/xuanxuan205/Get-VIP-movies)
 - **问题反馈**: [Issues](https://github.com/xuanxuan205/Get-VIP-movies/issues)
 - **更新日志**: [CHANGELOG.md](CHANGELOG.md)
-- **安全政策**: [SECURITY.md](SECURITY.md)
 
 ---
 

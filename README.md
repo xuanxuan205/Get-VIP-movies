@@ -61,21 +61,6 @@
 
 1. 访问 [Releases页面](https://github.com/xuanxuan205/Get-VIP-movies/releases/latest)
 2. 下载适合你系统的安装包
-3. 解压并运行 `启动运行.bat` (Windows) 或 `main.py` (其他系统)
-
-#### 方式二：从源码安装
-
-```bash
-# 克隆仓库
-git clone https://github.com/xuanxuan205/Get-VIP-movies.git
-cd Get-VIP-movies
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 运行程序
-python main.py
-```
 
 ### 🎮 使用方法
 
@@ -157,70 +142,6 @@ python main.py
 - **下载管理**: 可以下载视频到本地观看
 
 ---
-
-## 🛠️ 技术架构
-
-### 核心技术
-
-- **Python 3.7+**: 主要开发语言
-- **PyQt5**: 图形用户界面框架
-- **Flask**: Web服务框架
-- **yt-dlp**: 视频下载核心库
-- **requests**: HTTP请求处理
-
-### 解析原理
-
-1. **链接分析**: 解析视频平台的URL结构
-2. **API调用**: 调用平台的视频接口
-3. **数据提取**: 提取真实的视频播放地址
-4. **格式转换**: 转换为标准的播放格式
-
----
-
-## 🤝 贡献指南
-
-我们欢迎所有形式的贡献！
-
-### 如何贡献
-
-1. **Fork** 本仓库
-2. **创建** 功能分支 (`git checkout -b feature/AmazingFeature`)
-3. **提交** 更改 (`git commit -m 'Add some AmazingFeature'`)
-4. **推送** 到分支 (`git push origin feature/AmazingFeature`)
-5. **创建** Pull Request
-
-### 贡献类型
-
-- 🐛 **Bug修复**: 报告和修复程序错误
-- ✨ **新功能**: 添加新的功能特性
-- 📝 **文档**: 改进项目文档
-- 🎨 **界面**: 优化用户界面设计
-- ⚡ **性能**: 提升程序性能
-
----
-
-## 📄 开源协议
-
-本项目采用 [MIT License](LICENSE) 开源协议。
-
-```
-MIT License
-
-Copyright (c) 2024 xuanxuan205
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
-
 ## 🔗 相关链接
 
 - **项目主页**: [https://github.com/xuanxuan205/Get-VIP-movies](https://github.com/xuanxuan205/Get-VIP-movies)

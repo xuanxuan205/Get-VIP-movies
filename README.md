@@ -10,7 +10,7 @@
 
 *专业的VIP视频解析工具，支持爱奇艺、腾讯视频、优酷、芒果TV等主流平台*
 
-🚀 [立即下载](https://github.com/xuanxuan205/Get-VIP-movies/releases/latest) | 📖 [使用教程](https://github.com/xuanxuan205/Get-VIP-movies/wiki) | 🐛 [问题反馈](https://github.com/xuanxuan205/Get-VIP-movies/issues)
+🚀 [立即下载](https://github.com/xuanxuan205/Get-VIP-movies/releases/latest) | 🐛 [问题反馈](https://github.com/xuanxuan205/Get-VIP-movies/issues)
 
 ## 📸 程序界面展示
 
@@ -146,7 +146,6 @@
 
 - **项目主页**: [https://github.com/xuanxuan205/Get-VIP-movies](https://github.com/xuanxuan205/Get-VIP-movies)
 - **问题反馈**: [Issues](https://github.com/xuanxuan205/Get-VIP-movies/issues)
-- **功能建议**: [Discussions](https://github.com/xuanxuan205/Get-VIP-movies/discussions)
 - **更新日志**: [CHANGELOG.md](CHANGELOG.md)
 - **安全政策**: [SECURITY.md](SECURITY.md)
 

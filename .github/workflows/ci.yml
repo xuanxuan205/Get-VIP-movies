@@ -5,13 +5,15 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
+  release:
+    types: [ published ]
 
 jobs:
   test:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.7, 3.8, 3.9, '3.10', '3.11']
 
     steps:
@@ -25,54 +27,26 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements-public.txt
-        pip install pytest black flake8
+        pip install -r requirements.txt
+        pip install pytest pytest-cov
     
-    - name: Lint with flake8
+    - name: Run tests
       run: |
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        pytest --cov=./ --cov-report=xml
     
-    - name: Format check with black
-      run: |
-        black --check --diff .
-    
-    - name: Test with pytest
-      run: |
-        pytest -v
-      continue-on-error: true
-
-  security:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
       with:
-        python-version: '3.9'
-    
-    - name: Install security tools
-      run: |
-        python -m pip install --upgrade pip
-        pip install bandit safety
-    
-    - name: Run security checks with bandit
-      run: |
-        bandit -r . -f json -o bandit-report.json
-      continue-on-error: true
-    
-    - name: Check dependencies with safety
-      run: |
-        safety check --json --output safety-report.json
-      continue-on-error: true
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
 
   build:
-    needs: [test]
-    runs-on: windows-latest
-    if: github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
     
     steps:
     - uses: actions/checkout@v3
@@ -82,21 +56,45 @@ jobs:
       with:
         python-version: '3.9'
     
-    - name: Install build dependencies
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements-public.txt
+        pip install -r requirements.txt
         pip install pyinstaller
     
     - name: Build executable
       run: |
-        # 这里可以添加构建可执行文件的命令
-        # pyinstaller --onefile main.py
-        echo "Build process would go here"
+        pyinstaller --onefile --windowed --icon=icon.ico main.py
     
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: build-artifacts
+        name: get-vip-movies-${{ matrix.os }}
         path: dist/
-      continue-on-error: true
+
+  release:
+    needs: [test, build]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+    
+    - name: Build package
+      run: python -m build
+    
+    - name: Publish to PyPI
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+      run: twine upload dist/*

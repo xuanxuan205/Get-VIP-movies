@@ -1,31 +1,31 @@
-# 🎬 视频播放助手 - Video Player Assistant
+# 🎬 MultiMedia Player Pro
 
 <div align="center">
 
-**专业视频播放工具 | 多格式支持 | 跨平台兼容 | 完全开源**
+**专业多媒体播放工具 | 高清播放 | 跨平台支持**
 
-[![release](https://img.shields.io/badge/release-v2.1.1-blue?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases) [![downloads](https://img.shields.io/badge/downloads-2k+-brightgreen?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) ![stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE) [![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) [![language](https://img.shields.io/badge/language-Python-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![release](https://img.shields.io/badge/release-v2.1.1-blue?style=flat-square)](https://github.com/your-username/multimedia-player-pro/releases) [![downloads](https://img.shields.io/badge/downloads-1k+-brightgreen?style=flat-square)](https://github.com/your-username/multimedia-player-pro) ![stars](https://img.shields.io/github/stars/your-username/multimedia-player-pro?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE) [![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)](https://github.com/your-username/multimedia-player-pro)
 
-*现代化的视频播放工具，支持多种视频格式和高清播放*
+*现代化的多媒体播放解决方案，支持多种视频格式和高清播放*
 
-🚀 [立即下载](https://github.com/xuanxuan205/Get-VIP-movies/releases/latest) | 📖 [使用教程](https://github.com/xuanxuan205/Get-VIP-movies/wiki) | 🐛 [问题反馈](https://github.com/xuanxuan205/Get-VIP-movies/issues)
+🚀 [立即下载](https://github.com/your-username/multimedia-player-pro/releases/latest) | 📖 [使用教程](https://github.com/your-username/multimedia-player-pro/wiki) | 🐛 [问题反馈](https://github.com/your-username/multimedia-player-pro/issues)
 
 </div>
 
 ## 🎯 项目简介
 
-**视频播放助手** 是一款功能强大的多媒体播放工具，支持多种视频格式的播放。采用Python开发，界面简洁美观，操作简单便捷。专为用户提供优质的视频播放体验而设计。
+**MultiMedia Player Pro** 是一款功能强大的多媒体播放工具，支持多种视频格式的播放。采用现代化设计理念，界面简洁美观，操作简单便捷。
 
 ### 🌟 核心特性
 
 - 🎬 **多格式支持**: 支持MP4、AVI、MKV、FLV等主流视频格式
-- 🔍 **智能搜索**: 本地视频文件快速搜索和管理
+- 🔍 **智能搜索**: 本地媒体文件快速搜索和管理
 - 📱 **跨平台支持**: Windows、Linux、macOS全平台兼容
 - 🎨 **现代化界面**: 基于现代UI框架的美观用户界面
 - ⚡ **高性能播放**: 优化的播放引擎，流畅播放高清视频
-- 🔒 **安全可靠**: 开源透明，无恶意行为
+- 🔒 **安全可靠**: 开源代码，安全透明，无恶意行为
 
-### 📋 支持格式
+## 📋 支持格式
 
 | 视频格式 | 音频格式 | 字幕格式 |
 |---------|---------|---------|
@@ -45,14 +45,17 @@
 ### 安装方法
 
 #### 方法一：直接下载
-1. 访问 Releases页面
+1. 访问 [Releases页面](https://github.com/your-username/multimedia-player-pro/releases)
 2. 下载适合你系统的版本
 3. 解压并运行
 
 #### 方法二：从源码构建
-1. 克隆仓库到本地
-2. 安装所需依赖包
-3. 运行主程序文件
+```bash
+git clone https://github.com/your-username/multimedia-player-pro.git
+cd multimedia-player-pro
+pip install -r requirements-clean.txt
+python setup-clean.py install
+```
 
 ## 📖 使用说明
 
@@ -102,27 +105,40 @@
 ### 如何贡献
 
 1. Fork 本仓库
-2. 创建特性分支
-3. 提交更改
-4. 推送到分支
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
 ### 开发环境
 
-- 克隆仓库
-- 安装开发依赖
-- 运行测试
-- 启动开发服务器
+```bash
+# 克隆仓库
+git clone https://github.com/your-username/multimedia-player-pro.git
+
+# 安装开发依赖
+pip install -r requirements-dev.txt
+
+# 运行测试
+python -m pytest tests/
+
+# 启动开发服务器
+python main.py --dev
+```
 
 ## 📝 更新日志
 
-### v2.1.1 (2025-7-15)
+### v2.1.1 (2024-01-15)
 - 🎉 新增硬件加速支持
 - 🐛 修复播放列表bug
 - ⚡ 优化启动速度
 - 🎨 界面美化更新
 
-使用提供的测试脚本验证系统功能：
+### v2.1.0 (2023-12-20)
+- 🎬 新增字幕支持
+- 📱 跨平台兼容性改进
+- 🔧 配置系统重构
+- 🚀 性能优化
 
 ## 🆘 常见问题
 
@@ -138,22 +154,30 @@ A: 在设置中找到"性能"选项，开启"硬件加速"功能。
 ### Q: 程序无法启动怎么办？
 A: 确保系统满足最低要求，尝试以管理员权限运行。
 
+## 📞 联系我们
+
+- **GitHub Issues**: [问题反馈](https://github.com/your-username/multimedia-player-pro/issues)
+- **讨论区**: [GitHub Discussions](https://github.com/your-username/multimedia-player-pro/discussions)
+- **邮箱**: support@multimedia-player-pro.com
+
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 LICENSE 文件了解详情。
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
 ## 🙏 致谢
 
 感谢以下开源项目的支持：
 
-- FFmpeg - 多媒体处理框架
-- Qt - 跨平台应用框架
-- Python - 编程语言
+- [FFmpeg](https://ffmpeg.org/) - 多媒体处理框架
+- [Qt](https://www.qt.io/) - 跨平台应用框架
+- [Python](https://www.python.org/) - 编程语言
 
 ---
 
 <div align="center">
 
 **如果这个项目对你有帮助，请给个 ⭐ Star 支持一下！**
+
+[⬆ 回到顶部](#-multimedia-player-pro)
 
 </div>

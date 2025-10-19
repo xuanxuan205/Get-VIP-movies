@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-SecureAuth Pro - 专业级设备授权系统
-Professional Device Authorization System Setup Script
+Get VIP Movies - VIP视频解析工具
+Professional VIP Video Parser Setup Script
 """
 
 from setuptools import setup, find_packages
@@ -26,11 +26,11 @@ def read_requirements():
     return requirements
 
 setup(
-    name="secureauth-pro",
+    name="get-vip-movies",
     version="2.1.1",
-    author="SecureAuth Team",
-    author_email="dev@secureauth.pro",
-    description="专业级设备授权与内容管理系统",
+    author="xuanxuan205",
+    author_email="xuanxuan205@github.com",
+    description="专业的VIP视频解析工具，支持爱奇艺、腾讯视频、优酷、芒果TV等主流平台",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/xuanxuan205/Get-VIP-movies",

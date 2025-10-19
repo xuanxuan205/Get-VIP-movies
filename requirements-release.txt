@@ -1,0 +1,46 @@
+# Video Player Assistant - Release Requirements
+# 多媒体播放工具依赖包
+
+# GUI Framework
+PyQt5>=5.15.0
+PyQt5-tools>=5.15.0
+
+# Video Processing
+opencv-python>=4.5.0
+pillow>=8.0.0
+numpy>=1.20.0
+
+# Network and HTTP
+requests>=2.25.0
+urllib3>=1.26.0
+
+# Audio Processing
+pygame>=2.0.0
+
+# System and OS
+psutil>=5.8.0
+
+# Configuration and Data
+configparser>=5.0.0
+json5>=0.9.0
+
+# Logging and Monitoring
+colorlog>=6.0.0
+
+# File and Path Handling
+pathlib2>=2.3.0; python_version < "3.8"
+
+# Cross-platform Support
+plyer>=2.0.0
+
+# Performance Optimization
+lz4>=3.1.0
+
+# Security (Basic)
+cryptography>=3.4.0
+
+# Date and Time
+python-dateutil>=2.8.0
+
+# Threading and Async
+concurrent-futures>=3.1.0; python_version < "3.8"

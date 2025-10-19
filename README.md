@@ -4,9 +4,11 @@
 
 **免费VIP视频解析 | 全网影视 | 高清播放 | 完全开源**
 
-[![release](https://img.shields.io/badge/release-v2.1.1-blue?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases) [![downloads](https://img.shields.io/badge/downloads-5k+-brightgreen?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) ![stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE) [![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) [![language](https://img.shields.io/badge/language-Python-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![security](https://img.shields.io/badge/security-verified-success?style=flat-square&logo=shield&logoColor=white)](https://github.com/xuanxuan205/Get-VIP-movies)
+[![release](https://img.shields.io/github/v/release/xuanxuan205/Get-VIP-movies?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies/releases) [![downloads](https://img.shields.io/github/downloads/xuanxuan205/Get-VIP-movies/total?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies) [![language](https://img.shields.io/badge/language-Python-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square&logo=windows&logoColor=white)](https://github.com/xuanxuan205/Get-VIP-movies) ![stars](https://img.shields.io/github/stars/xuanxuan205/Get-VIP-movies?style=flat-square)
 
-[![Flask](https://img.shields.io/badge/Flask-2.3.3-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![VIP解析](https://img.shields.io/badge/VIP解析-全网支持-red?style=flat-square&logo=video&logoColor=white)](https://github.com/xuanxuan205/Get-VIP-movies) [![API](https://img.shields.io/badge/API-RESTful-orange?style=flat-square)](https://github.com/xuanxuan205/Get-VIP-movies)
+[![爱奇艺](https://img.shields.io/badge/爱奇艺-支持-red?style=flat-square)](https://www.iqiyi.com) [![腾讯视频](https://img.shields.io/badge/腾讯视频-支持-blue?style=flat-square)](https://v.qq.com) [![优酷](https://img.shields.io/badge/优酷-支持-orange?style=flat-square)](https://www.youku.com) [![芒果TV](https://img.shields.io/badge/芒果TV-支持-green?style=flat-square)](https://www.mgtv.com) [![Bilibili](https://img.shields.io/badge/Bilibili-支持-pink?style=flat-square)](https://www.bilibili.com) [![YouTube](https://img.shields.io/badge/YouTube-支持-red?style=flat-square)](https://www.youtube.com)
+
+
 
 *专业的VIP视频解析工具，支持爱奇艺、腾讯视频、优酷、芒果TV等主流平台*
 

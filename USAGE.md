@@ -4,13 +4,8 @@
 
 ### 1. 下载安装
 - 访问 [GitHub Releases](https://github.com/xuanxuan205/Get-VIP-movies/releases) 下载最新版本
-- 或者克隆源码：`git clone https://github.com/xuanxuan205/Get-VIP-movies.git`
 
-### 2. 运行程序
-- Windows: 双击 `启动运行.bat`
-- 其他系统: 运行 `python main.py`
-
-### 3. 使用步骤
+### 2. 使用步骤
 1. 复制视频链接（支持爱奇艺、腾讯视频、优酷等）
 2. 粘贴到程序输入框
 3. 点击"解析播放"按钮
@@ -71,8 +66,6 @@ A: 完全开源，代码透明，无恶意行为，可放心使用
 ## 技术支持
 
 - 🐛 [问题反馈](https://github.com/xuanxuan205/Get-VIP-movies/issues)
-- 💬 [讨论交流](https://github.com/xuanxuan205/Get-VIP-movies/discussions)
-- 📖 [项目文档](https://github.com/xuanxuan205/Get-VIP-movies/wiki)
 - ⭐ [给个Star](https://github.com/xuanxuan205/Get-VIP-movies)
 
 ## 免责声明
